@@ -1,0 +1,30 @@
+{
+  "name": "decision",
+  "version": "1.0.0",
+  "description": "Application web de génération automatique des décisions (modèle Word DECISION)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:template": "node scripts/build-template.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smaali1rim/Decision.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smaali1rim/Decision/issues"
+  },
+  "homepage": "https://github.com/smaali1rim/Decision#readme",
+  "dependencies": {
+    "docxtemplater": "^3.71.1",
+    "express": "^4.22.3",
+    "pizzip": "^3.3.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true
+}

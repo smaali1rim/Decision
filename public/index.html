@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Décisions</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%231f3a5f'/><path d='M10 8h8l5 5v11H10z' fill='white'/><path d='M13 16h7M13 19h7M13 22h5' stroke='%231f3a5f' stroke-width='1.5'/></svg>" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>Décisions</span>
+    </div>
+    <nav class="tabs" id="tabs">
+      <button data-view="editor" class="active">Nouvelle décision</button>
+      <button data-view="registry">Registre</button>
+      <button data-view="persons">Personnes</button>
+      <button data-view="vus">Vus</button>
+      <button data-view="settings">Paramètres</button>
+    </nav>
+  </header>
+
+  <main id="app"></main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
