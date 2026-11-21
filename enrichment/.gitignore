@@ -1,0 +1,3 @@
+# Données personnelles des abonnés : ne jamais committer
+*.csv
+.cache_enrichissement/
